@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MultiAds_Example' do
+  pod 'MultiAds', :path => '../'
+
+  target 'MultiAds_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
