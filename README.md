@@ -1,29 +1,93 @@
 # MultiAds
 
-[![CI Status](https://img.shields.io/travis/CoderRb123/MultiAds.svg?style=flat)](https://travis-ci.org/CoderRb123/MultiAds)
-[![Version](https://img.shields.io/cocoapods/v/MultiAds.svg?style=flat)](https://cocoapods.org/pods/MultiAds)
-[![License](https://img.shields.io/cocoapods/l/MultiAds.svg?style=flat)](https://cocoapods.org/pods/MultiAds)
-[![Platform](https://img.shields.io/cocoapods/p/MultiAds.svg?style=flat)](https://cocoapods.org/pods/MultiAds)
+**MultiAds** is a custom in-house Swift plugin designed to seamlessly integrate and manage multiple ad networks under a unified interface. It simplifies the implementation of interstitial, rewarded, and banner ads for iOS apps by abstracting each ad SDK into a pluggable, scalable architecture.
 
-## Example
+## ✨ Features
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+- 🔌 Plug-and-play integration with major ad networks (e.g., AdMob, AppLovin, Unity, etc.)
+- 🧠 Smart mediation logic with failover support
+- 📊 Unified interface for loading, showing, and handling callbacks
+- 🧩 Modular adapters with binary target support for custom SDKs
+- 📱 SwiftUI and UIKit compatible
 
-## Requirements
+## 📦 Installation
 
-## Installation
-
-MultiAds is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+Add `MultiAds` to your `Podfile`:
 
 ```ruby
-pod 'MultiAds'
+pod 'MultiAds', :git => 'https://github.com/your-org/MultiAds.git', :tag => '1.0.0'
 ```
 
-## Author
+Then run:
 
-CoderRb123, 44895678+CoderRb123@users.noreply.github.com
+```bash
+pod install
+```
 
-## License
+Make sure to include the required adapter SDKs (AppLovin, Google Mobile Ads, etc.) in your project or via your own plugins.
 
-MultiAds is available under the MIT license. See the LICENSE file for more info.
+## 🛠 Usage
+
+### 1. Initialize MultiAds
+
+```swift
+MultiAdsManager.shared.initializeNetworks()
+```
+
+### 2. Load and Show Ads
+
+```swift
+MultiAdsManager.shared.loadAndShowInterstitial(from: viewController)
+MultiAdsManager.shared.loadAndShowRewarded(from: viewController)
+```
+
+### 3. Native Ads (SwiftUI compatible)
+
+```swift
+MultiAdsManager.shared.getNativeAdView(height: 300, width: 350)
+```
+
+### 4. Ad Callbacks
+
+You can subscribe to ad events using:
+
+```swift
+MultiAdsManager.shared.delegate = self
+```
+
+And conform to the relevant delegate protocols.
+
+## 🧩 Supported Networks
+
+- ✅ Google AdMob
+- ✅ AppLovin
+- ✅ Unity Ads
+- 🛠 Custom network support via adapter interfaces
+
+## 🔐 Requirements
+
+- iOS 13.0+
+- Swift 5.3+
+- Xcode 14+
+
+## 📁 Folder Structure
+
+```
+MultiAds/
+├── Sources/
+│   ├── AdManager.swift
+│   ├── AdProtocols.swift
+│   └── AdAdapters/
+│       ├── AdMobAdapter.swift
+│       └── AppLovinAdapter.swift
+├── Resources/
+│   └── XIBs, Localized Strings, etc.
+```
+
+## 🚧 Development & Contribution
+
+This plugin is currently an internal tool and not open to public contribution. For bug reports or feature requests, please contact the RB Techlab team.
+
+## 📄 License
+
+This project is proprietary and maintained by [RB Techlab](https://rbtechlab.in). Unauthorized use is prohibited.

@@ -1,0 +1,31 @@
+PODS:
+  - IPAPI (3.0.0)
+  - KeychainSwift (20.0.0)
+  - MultiAds (0.1.0):
+    - IPAPI (~> 3.0.0)
+    - KeychainSwift (~> 20.0.0)
+    - SwiftyJSON (~> 5.0.2)
+  - SwiftyJSON (5.0.2)
+
+DEPENDENCIES:
+  - MultiAds (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - IPAPI
+    - KeychainSwift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  MultiAds:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IPAPI: 56013753e9bc906a9347bf8e260e957ff382b393
+  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
+  MultiAds: dcdb5e7d82a0f0e2f5667b7e2cdcc506498574d3
+  SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
+
+PODFILE CHECKSUM: 93930073e19425ffdbb11aa8ab575efe8eb2b9c0
+
+COCOAPODS: 1.16.2

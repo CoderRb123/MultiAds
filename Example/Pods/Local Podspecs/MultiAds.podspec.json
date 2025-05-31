@@ -1,0 +1,33 @@
+{
+  "name": "MultiAds",
+  "version": "0.1.0",
+  "summary": "A short description of MultiAds.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CoderRb123/MultiAds",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CoderRb123": "44895678+CoderRb123@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/CoderRb123/MultiAds.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "source_files": "MultiAds/Classes/**/*",
+  "dependencies": {
+    "SwiftyJSON": [
+      "~> 5.0.2"
+    ],
+    "IPAPI": [
+      "~> 3.0.0"
+    ],
+    "KeychainSwift": [
+      "~> 20.0.0"
+    ]
+  }
+}

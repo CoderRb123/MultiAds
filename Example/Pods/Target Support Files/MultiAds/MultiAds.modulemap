@@ -1,0 +1,6 @@
+framework module MultiAds {
+  umbrella header "MultiAds-umbrella.h"
+
+  export *
+  module * { export * }
+}
