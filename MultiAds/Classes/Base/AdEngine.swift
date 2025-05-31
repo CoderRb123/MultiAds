@@ -165,7 +165,7 @@ public class AdEngine {
             if localConfig!.showAds {
                 
                 
-                MultiAdsInterface.shared.commonState.adLoader = true
+                MultiAdsManager.shared.commonState.adLoader = true
                
                 
                 print("✅ Local Config [loadScreenBasedAds]  Local true")
@@ -175,7 +175,7 @@ public class AdEngine {
                     onCloseEvent: {
                         print("On Ad Close Event Fired 🔥")
                         self.failedCounter = 0
-                        MultiAdsInterface.shared.commonState.adLoader = false
+                        MultiAdsManager.shared.commonState.adLoader = false
                         adCallback.onCloseEvent?()
                     },
                     onFailed: {
@@ -208,7 +208,7 @@ public class AdEngine {
                         onCloseEvent: {
                             print("On Ad Close Number Callback  Event Fired 🔥")
                             self.failedCounter = 0
-                            MultiAdsInterface.shared.commonState.adLoader = false
+                            MultiAdsManager.shared.commonState.adLoader = false
                             adCallback.onCloseEvent?()
                         },
                         onFailed: {

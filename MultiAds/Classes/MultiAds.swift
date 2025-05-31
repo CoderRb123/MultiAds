@@ -192,7 +192,7 @@ public class MultiAdsManager {
 @available(iOS 13.0, *)
 public extension View {
     func setup(registerAppParameters: RegisterAppParameters,onSdkInitialized: @escaping () -> Void){
-        MultiAdsInterface().setUp(registerAppParameters: registerAppParameters,onSdkInitialized: onSdkInitialized)
+        MultiAdsManager().setUp(registerAppParameters: registerAppParameters,onSdkInitialized: onSdkInitialized)
     }
 }
 

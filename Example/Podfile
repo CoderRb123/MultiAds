@@ -8,6 +8,5 @@ target 'MultiAds_Example' do
   target 'MultiAds_Tests' do
     inherit! :search_paths
 
-    
   end
 end

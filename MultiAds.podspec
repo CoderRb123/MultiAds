@@ -39,6 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'SwiftyJSON', '~> 5.0.2'
-  s.dependency 'IPAPI', '~> 3.0.0'
+  s.dependency 'IPAPI', '~> 3.0'
   s.dependency 'KeychainSwift', '~> 20.0.0'
 end
