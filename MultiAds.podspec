@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/CoderRb123/MultiAds.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '16.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'MultiAds/Classes/**/*'
   
@@ -40,5 +40,6 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'SwiftyJSON', '~> 5.0.2'
   s.dependency 'IPAPI', '~> 3.0'
-  s.dependency 'KeychainSwift', '~> 20.0.0'
+  s.dependency 'KeychainSwift', '~> 24.0'
+
 end

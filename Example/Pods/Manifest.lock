@@ -1,9 +1,9 @@
 PODS:
   - IPAPI (3.0.0)
-  - KeychainSwift (20.0.0)
+  - KeychainSwift (24.0.0)
   - MultiAds (1.0.0):
     - IPAPI (~> 3.0)
-    - KeychainSwift (~> 20.0.0)
+    - KeychainSwift (~> 24.0)
     - SwiftyJSON (~> 5.0.2)
   - SwiftyJSON (5.0.2)
 
@@ -22,10 +22,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   IPAPI: 56013753e9bc906a9347bf8e260e957ff382b393
-  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
-  MultiAds: 65c6e25c280dd7d19d48596d1a4167c9f1812f5d
+  KeychainSwift: 007c4647486e4563adca839cf02cef00deb3b670
+  MultiAds: e425b158c063f4dc58f5beb99a2d72db41a895cb
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
 
-PODFILE CHECKSUM: d588f37819465df69d2d7d1c91d444a156e879a4
+PODFILE CHECKSUM: 239c77a64f5e5a76ebb6b6d61f4f8546b61ef511
 
 COCOAPODS: 1.16.2
