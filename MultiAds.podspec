@@ -44,5 +44,8 @@ TODO: Add long description of the pod here.
   s.dependency 'IPAPI', '~> 3.0'
   s.dependency 'KeychainSwift', '~> 24.0'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 12.5.0'
+  s.dependency 'GoogleMobileAdsMediationAppLovin'
+  s.dependency 'GoogleMobileAdsMediationFacebook'
+  s.dependency 'GoogleMobileAdsMediationUnity'
 
 end
