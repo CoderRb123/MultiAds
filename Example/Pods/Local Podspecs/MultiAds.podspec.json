@@ -16,9 +16,11 @@
     "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "12.0"
   },
   "source_files": "MultiAds/Classes/**/*",
+  "static_framework": true,
+  "public_header_files": "Pod/Classes/**/*.h",
   "dependencies": {
     "SwiftyJSON": [
       "~> 5.0.2"
@@ -28,6 +30,9 @@
     ],
     "KeychainSwift": [
       "~> 24.0"
+    ],
+    "Google-Mobile-Ads-SDK": [
+      "~> 12.5.0"
     ]
   }
 }

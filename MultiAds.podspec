@@ -36,10 +36,13 @@ TODO: Add long description of the pod here.
   #   'MultiAds' => ['MultiAds/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.static_framework = true
+
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'SwiftyJSON', '~> 5.0.2'
   s.dependency 'IPAPI', '~> 3.0'
   s.dependency 'KeychainSwift', '~> 24.0'
+  s.dependency 'Google-Mobile-Ads-SDK', '~> 12.5.0'
 
 end

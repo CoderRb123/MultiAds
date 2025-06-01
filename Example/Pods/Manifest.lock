@@ -1,7 +1,11 @@
 PODS:
+  - Google-Mobile-Ads-SDK (12.5.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleUserMessagingPlatform (3.0.0)
   - IPAPI (3.0.0)
   - KeychainSwift (24.0.0)
   - MultiAds (1.0.0):
+    - Google-Mobile-Ads-SDK (~> 12.5.0)
     - IPAPI (~> 3.0)
     - KeychainSwift (~> 24.0)
     - SwiftyJSON (~> 5.0.2)
@@ -12,6 +16,8 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Google-Mobile-Ads-SDK
+    - GoogleUserMessagingPlatform
     - IPAPI
     - KeychainSwift
     - SwiftyJSON
@@ -21,9 +27,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Google-Mobile-Ads-SDK: 6df9aadcee32bce0ff05bcad56ef2c88a4a5e82b
+  GoogleUserMessagingPlatform: f8d0cdad3ca835406755d0a69aa634f00e76d576
   IPAPI: 56013753e9bc906a9347bf8e260e957ff382b393
   KeychainSwift: 007c4647486e4563adca839cf02cef00deb3b670
-  MultiAds: e425b158c063f4dc58f5beb99a2d72db41a895cb
+  MultiAds: faf1af061daadad11063580745b0fe375d4c76e0
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
 
 PODFILE CHECKSUM: 239c77a64f5e5a76ebb6b6d61f4f8546b61ef511
