@@ -17,6 +17,7 @@
 				C5150A7A447FD00973284B95B6BFBA9B /* PBXTargetDependency */,
 			);
 			name = GoogleUserMessagingPlatform;
+			productName = GoogleUserMessagingPlatform;
 		};
 /* End PBXAggregateTarget section */
 
@@ -35,7 +36,7 @@
 		1E11D2858E722A5817312FAE836D58CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		1F2BAA9FF7A3F3DE0118514C1015E953 /* Pods-MultiAds_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2F1A848014ECE84BADEA93782A42AF /* Pods-MultiAds_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AACD39453FE22D0F1DB24AAB5E4DA3 /* Google-Mobile-Ads-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82632C89046977D514E1B44F00512993 /* Google-Mobile-Ads-SDK-dummy.m */; };
-		23B83E0CC7CE0E25F34EC6CA41805F5F /* SwiftyJSON-SwiftyJSON in Resources */ = {isa = PBXBuildFile; fileRef = 7CA3B05F07B063827B34AD2B0DB23706 /* SwiftyJSON-SwiftyJSON */; };
+		23B83E0CC7CE0E25F34EC6CA41805F5F /* SwiftyJSON.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7CA3B05F07B063827B34AD2B0DB23706 /* SwiftyJSON.bundle */; };
 		26397CDA5120CBF38C8377D1B11E7D2B /* MultiAds-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F06CDE375CAE0727A6238A17FD302B /* MultiAds-dummy.m */; };
 		2D6DA8BDC0A0BA54505CEB8A4EE7BEE4 /* AdEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B347F76ACAD061075E4DBECDD64E8777 /* AdEngine.swift */; };
 		32BC999B66B2FFC4B0DCC4D7B13D9E1F /* RewardAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B36AC0497484E9C94547EE438C8918 /* RewardAd.swift */; };
@@ -61,7 +62,7 @@
 		77DBF2EE03BFCC3D1ADF93B24FEFA3A4 /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4987BB77E55D335770C7BFEE628AC633 /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B15E79978873E5AB9C254259B3A7738 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CAED3AEE13AA37CCB9041A1BF2CEC /* ApiService.swift */; };
 		7FFF6EF100962DA26519136876F4E06C /* CommonValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AC58236D3C336E7CBC3912F2063724 /* CommonValues.swift */; };
-		8096AF276A60A1F710EB2288E2A20FC1 /* KeychainSwift-KeychainSwift in Resources */ = {isa = PBXBuildFile; fileRef = 8C80BDFB0BFF9B8889024C8051802E85 /* KeychainSwift-KeychainSwift */; };
+		8096AF276A60A1F710EB2288E2A20FC1 /* KeychainSwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8C80BDFB0BFF9B8889024C8051802E85 /* KeychainSwift.bundle */; };
 		8126FC85B3DDB885D28A931AF3BFDA3B /* MediumAdView.xib in Sources */ = {isa = PBXBuildFile; fileRef = D556249D801ACBAAC2D102F2A5878D66 /* MediumAdView.xib */; };
 		829E07D9CBF6C4B3C39ADE0194F47B40 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F127C1153BFC0BC42AC3FEF7614BC2D7 /* NetworkInterface.swift */; };
 		85D3A078491507F1094A59946476B64E /* NativeAdView.xib in Sources */ = {isa = PBXBuildFile; fileRef = E48FB0111C9DE20B447743C4A11D1BC3 /* NativeAdView.xib */; };
@@ -217,11 +218,11 @@
 		047863AE053E16617DBCFDBE56DC37FE /* Pods-MultiAds_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultiAds_Tests-Info.plist"; sourceTree = "<group>"; };
 		0754B9B67E7D86989545631050623BD2 /* AdModuleProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AdModuleProtocol.swift; sourceTree = "<group>"; };
 		0A09DDDBE95622E01495FABE06D5F75F /* ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist"; sourceTree = "<group>"; };
-		0E8347FBF92E4CFE9E6D16786D9D316F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Source/SwiftyJSON/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		0E8347FBF92E4CFE9E6D16786D9D316F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Source/SwiftyJSON/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		12572E775383CA9C52F21983D0938D4C /* DeviceMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeviceMethods.swift; sourceTree = "<group>"; };
 		12AC5C098BD849AB76E50EF0754A4717 /* Google-Mobile-Ads-SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Google-Mobile-Ads-SDK.modulemap"; sourceTree = "<group>"; };
 		1456F0D239338E6CC1E8D43A4267ADA9 /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
-		16FF0EEC10320141EAB09C91577C7856 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework/ios-arm64/GoogleMobileAds.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		16FF0EEC10320141EAB09C91577C7856 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = "Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework/ios-arm64/GoogleMobileAds.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
 		196D8F5E968687DB4B8D0900D30CF033 /* Pods-MultiAds_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultiAds_Example-Info.plist"; sourceTree = "<group>"; };
 		1BFEAD5DCFE041A56B2CCF8724F79A15 /* MultiAds-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultiAds-prefix.pch"; sourceTree = "<group>"; };
 		1C90E4DC67F42017E1EA14C9174FBE52 /* NativeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeEngine.swift; sourceTree = "<group>"; };
@@ -232,15 +233,15 @@
 		265F9FEEF1012DFCE6560562379B7CD9 /* Pods-MultiAds_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultiAds_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2797DDA04283CF56E81B9BD258DED86B /* RegisterParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegisterParams.swift; sourceTree = "<group>"; };
 		279CBE864CDDF11A0230DC58F4D4991D /* IPAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IPAPI.modulemap; sourceTree = "<group>"; };
-		2AC71F8D30D8D5828BEAA4E4DD3170EA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Frameworks/Release/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		2AC71F8D30D8D5828BEAA4E4DD3170EA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = "Frameworks/Release/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
 		2E7573F2A8570DA39639382F224D523F /* JsonMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JsonMethods.swift; sourceTree = "<group>"; };
 		2F346912271BF2E051A15BB726A0C071 /* ServerConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServerConfig.swift; sourceTree = "<group>"; };
 		3012D4A0ECB2C21434DE04149CCB7D06 /* RegisterDeviceRequestModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegisterDeviceRequestModel.swift; sourceTree = "<group>"; };
-		35C72D752986ACBF3E5F37C905AA8F60 /* MultiAds */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MultiAds; path = MultiAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C72D752986ACBF3E5F37C905AA8F60 /* MultiAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultiAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A24FFA109CA16A502FB4D38E647743 /* GoogleAds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoogleAds.swift; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		38DC06AC802ADE9BE2120C987363011B /* Google-Mobile-Ads-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Google-Mobile-Ads-SDK-prefix.pch"; sourceTree = "<group>"; };
-		3998091512768CD07733CB4F02B4BD9F /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources"; path = GoogleMobileAdsResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3998091512768CD07733CB4F02B4BD9F /* GoogleMobileAdsResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMobileAdsResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B864E6A5E4F59F61D3661C7F77562EF /* AppTrans.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppTrans.swift; sourceTree = "<group>"; };
 		3C812DE9A5162F657D148F653247C7EC /* ColorFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorFunctions.swift; sourceTree = "<group>"; };
 		3CAA8C25ACE2081AA320AE413D7DE586 /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
@@ -254,8 +255,8 @@
 		4EEA44F3315D1C76CD9B8396DF7E927F /* Pods-MultiAds_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultiAds_Example-dummy.m"; sourceTree = "<group>"; };
 		513467AC17CB9E3ABB019D700610A5B0 /* UserDefaultKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
 		5182FD95E940367FC4FC4A8DB6004E16 /* MultiAds.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MultiAds.modulemap; sourceTree = "<group>"; };
-		518701E269E67295B5EC29742D5419A8 /* IPAPI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IPAPI; path = IPAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57CC52AE64C1096193EC42CA72905D11 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		518701E269E67295B5EC29742D5419A8 /* IPAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IPAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CC52AE64C1096193EC42CA72905D11 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		5A97FA82B1605C442474CF6DF6DA52B5 /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
 		5D347C25956BFA4005FFDA68ED7B9070 /* NetworkConst.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkConst.swift; sourceTree = "<group>"; };
 		643A4E481C6F28BC08262A0434B0EE77 /* IPAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IPAPI-umbrella.h"; sourceTree = "<group>"; };
@@ -268,33 +269,33 @@
 		71A2FD9187904B27DDC5078364163F91 /* ResourceBundle-SwiftyJSON-SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftyJSON-SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
 		76F06CDE375CAE0727A6238A17FD302B /* MultiAds-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MultiAds-dummy.m"; sourceTree = "<group>"; };
 		76F48271988E6D58A48B03A3FE589581 /* Pods-MultiAds_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiAds_Example-resources.sh"; sourceTree = "<group>"; };
-		77F8AEC0246335AF7462416685074B17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		77F8AEC0246335AF7462416685074B17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		780FC5E4A45F610ADB662BD4870626B7 /* IPAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IPAPI-dummy.m"; sourceTree = "<group>"; };
 		789831463A5842A5D4E6030FBAD96648 /* RouteMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RouteMethods.swift; sourceTree = "<group>"; };
 		7B43B10908AFA657499295B611F85D9D /* MultiAds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiAds.swift; path = MultiAds/Classes/MultiAds.swift; sourceTree = "<group>"; };
-		7CA3B05F07B063827B34AD2B0DB23706 /* SwiftyJSON-SwiftyJSON */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SwiftyJSON-SwiftyJSON"; path = SwiftyJSON.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA3B05F07B063827B34AD2B0DB23706 /* SwiftyJSON.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyJSON.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE1EC17A477742334555B63737AAA7C /* MultiAds-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MultiAds-Info.plist"; sourceTree = "<group>"; };
 		82632C89046977D514E1B44F00512993 /* Google-Mobile-Ads-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Google-Mobile-Ads-SDK-dummy.m"; sourceTree = "<group>"; };
 		86988B5D9D30CDE283448356D20F9E52 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		8704ACB3E86AB572729C266CDEF5B1EE /* Google-Mobile-Ads-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Google-Mobile-Ads-SDK-Info.plist"; sourceTree = "<group>"; };
-		8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleUserMessagingPlatform-UserMessagingPlatformResources"; path = UserMessagingPlatformResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A377C18F92A8A511869ADA54B5652D2 /* UserMessagingPlatformResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserMessagingPlatformResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8B588AEC4E9B58C2E796CC69DC44B6 /* NetworkToIndexMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkToIndexMapper.swift; sourceTree = "<group>"; };
 		8B1EE22FDFB9C4D83A0E7D606DEEAC01 /* BannerWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BannerWrapper.swift; sourceTree = "<group>"; };
 		8B840747BBB931E5F8D933131B3CE058 /* IPAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IPAPI.debug.xcconfig; sourceTree = "<group>"; };
-		8C80BDFB0BFF9B8889024C8051802E85 /* KeychainSwift-KeychainSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "KeychainSwift-KeychainSwift"; path = KeychainSwift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D51DCA400F0AEF6170BFACF0D7D760A /* Pods-MultiAds_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MultiAds_Tests"; path = Pods_MultiAds_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C80BDFB0BFF9B8889024C8051802E85 /* KeychainSwift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeychainSwift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D51DCA400F0AEF6170BFACF0D7D760A /* Pods_MultiAds_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiAds_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F543692428CF3EBA203E0C507DA0763 /* KeychainSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainSwift-Info.plist"; sourceTree = "<group>"; };
 		907302A209C585F5C4319707D9486223 /* GADNativeViewControllerWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GADNativeViewControllerWrapper.swift; sourceTree = "<group>"; };
 		90FCEAF6CBF233AD90F8B9F846BF38C3 /* IPAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IPAPI-Info.plist"; sourceTree = "<group>"; };
-		9714F26DF24E1954DF01B4839C3FC4E4 /* Pods-MultiAds_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MultiAds_Example"; path = Pods_MultiAds_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9714F26DF24E1954DF01B4839C3FC4E4 /* Pods_MultiAds_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiAds_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C34306580B2501CC0512D28172B76F /* IPAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IPAPI.release.xcconfig; sourceTree = "<group>"; };
 		9819C9E54EC4D7791E08F69C6836A614 /* IPAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IPAPI-prefix.pch"; sourceTree = "<group>"; };
 		9846F7EC9F82B701025EA83E24C8B0FB /* KeychainSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.debug.xcconfig; sourceTree = "<group>"; };
 		988A39B0562873B333573DBD61326001 /* GoogleUserMessagingPlatform-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleUserMessagingPlatform-xcframeworks.sh"; sourceTree = "<group>"; };
 		9C43CB97AC30EE67FD753AB44FFDD96F /* google_ads_multiads.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = google_ads_multiads.swift; sourceTree = "<group>"; };
 		9CD36F9B7B38E679E358AE1B1B8782D2 /* AppAdHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppAdHelper.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainSwift; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F88830DB351105D3251739279F2152E /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
 		A2E56C638697F69ECA39BFB155CCAAF7 /* Pods-MultiAds_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiAds_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A44283FD7FA39864FA12047F9CF7673B /* GoogleMobileAdsPlaceholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleMobileAdsPlaceholder.swift; path = Sources/GoogleMobileAdsPlaceholder.swift; sourceTree = "<group>"; };
@@ -304,10 +305,10 @@
 		A7CE92359BD8CB697025B901FB9EFC27 /* ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist"; sourceTree = "<group>"; };
 		A8174E074F7C98378D418EC195D3B815 /* SmallAdmobNative.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SmallAdmobNative.xib; sourceTree = "<group>"; };
 		AA8917C78FA49BA32324D37C526466BA /* ResourceBundle-KeychainSwift-KeychainSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KeychainSwift-KeychainSwift-Info.plist"; sourceTree = "<group>"; };
-		AD9062F7160FDAAE1E30C8D5A74AA6C9 /* MultiAds.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MultiAds.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD9062F7160FDAAE1E30C8D5A74AA6C9 /* MultiAds.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MultiAds.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ADB610146D6026D810752D09020728FD /* Google-Mobile-Ads-SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Google-Mobile-Ads-SDK-umbrella.h"; sourceTree = "<group>"; };
 		AEDE12AC8F2C5D15B4FB9A2C80FB3EEB /* Pods-MultiAds_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiAds_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AFCF37EF199D97718DE482033C5181FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AFCF37EF199D97718DE482033C5181FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B0D22DF43BB080A77A4DE582D249C3F6 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = Sources/Service.swift; sourceTree = "<group>"; };
 		B347F76ACAD061075E4DBECDD64E8777 /* AdEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AdEngine.swift; sourceTree = "<group>"; };
 		B36BD23148B229578E8FE6C702206931 /* MultiAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MultiAds.release.xcconfig; sourceTree = "<group>"; };
@@ -318,14 +319,14 @@
 		C4209EA6B1B27352C12C90397BB71EEF /* GoogleUserMessagingPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUserMessagingPlatform.release.xcconfig; sourceTree = "<group>"; };
 		C6D4723589899AE8209DCA75C70F449E /* NetworkTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkTypes.swift; sourceTree = "<group>"; };
 		C81FCF984D97BDF660FC1F07F9E7EB83 /* KeychainSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.release.xcconfig; sourceTree = "<group>"; };
-		CD1993F140F7D36BD3D5C42612802ED2 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = UserMessagingPlatform.xcframework; path = Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		CD1993F140F7D36BD3D5C42612802ED2 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = UserMessagingPlatform.xcframework; path = Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
 		CD1CAED3AEE13AA37CCB9041A1BF2CEC /* ApiService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		CE2F1A848014ECE84BADEA93782A42AF /* Pods-MultiAds_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MultiAds_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D556249D801ACBAAC2D102F2A5878D66 /* MediumAdView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MediumAdView.xib; sourceTree = "<group>"; };
 		DCBA5D5F11DA078FDBECE6B3867B57DB /* GoogleUserMessagingPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUserMessagingPlatform.debug.xcconfig; sourceTree = "<group>"; };
 		DF75EB92F4A8E7B5D6C44DCB875A4CE2 /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
 		E23388ED11D769E128EFB9583406D0F6 /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = Sources/KeychainSwift.swift; sourceTree = "<group>"; };
-		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A77B8411612B1DE456C3CB84B25DB6 /* MultiAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MultiAds.debug.xcconfig; sourceTree = "<group>"; };
 		E48FB0111C9DE20B447743C4A11D1BC3 /* NativeAdView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = NativeAdView.xib; sourceTree = "<group>"; };
 		E696A197673A871704F2FD3C251FE764 /* Pods-MultiAds_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultiAds_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -336,12 +337,12 @@
 		F16AD12113BFAB086904E96EE0B6C31D /* NetworkMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		F2E0675CD56A60F4F1D2429EDA7089E4 /* AdConfigDataModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AdConfigDataModel.swift; sourceTree = "<group>"; };
 		F7008E51A9BA9871995F8C981C5E0456 /* Pods-MultiAds_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultiAds_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F8ECCB3B4E33C0FDD00B394CC2C7EA2E /* Google-Mobile-Ads-SDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Google-Mobile-Ads-SDK"; path = Google_Mobile_Ads_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8ECCB3B4E33C0FDD00B394CC2C7EA2E /* Google_Mobile_Ads_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Google_Mobile_Ads_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4BCCC77673731FE11F962F20A5DD2C /* Pods-MultiAds_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultiAds_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FAA68FBE65FCF66E40114CB7676A1CD8 /* Pods-MultiAds_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MultiAds_Example.modulemap"; sourceTree = "<group>"; };
 		FB03BCA6CC691EB216275341DB5D567D /* Pods-MultiAds_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MultiAds_Tests.modulemap"; sourceTree = "<group>"; };
 		FC6F5BED737CEEAA7083F008C9CEB61F /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		FEF04AAF89093ED8572FFE667C499973 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMobileAds.xcframework; path = Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		FEF04AAF89093ED8572FFE667C499973 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework; sourceTree = "<group>"; };
 		FF8F19746DC169AFF40B2A6452EAA93C /* ApiReposiotry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiReposiotry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -442,7 +443,6 @@
 				664617E7AD85E728BB4030C666F04B18 /* Resources */,
 				65B7312EEF6147A39CA9CDD7B790C7DE /* Support Files */,
 			);
-			name = KeychainSwift;
 			path = KeychainSwift;
 			sourceTree = "<group>";
 		};
@@ -453,7 +453,6 @@
 				B38A1F771DB9D6DEB86258597584F819 /* Resources */,
 				10D206ED690DCF731D7BBB134AC3BAA1 /* Support Files */,
 			);
-			name = GoogleUserMessagingPlatform;
 			path = GoogleUserMessagingPlatform;
 			sourceTree = "<group>";
 		};
@@ -495,7 +494,6 @@
 				B0D22DF43BB080A77A4DE582D249C3F6 /* Service.swift */,
 				A748F3F4270D286E18892D584B240C17 /* Support Files */,
 			);
-			name = IPAPI;
 			path = IPAPI;
 			sourceTree = "<group>";
 		};
@@ -530,7 +528,6 @@
 			children = (
 				6AE681A643B8821C89AA4F77331F4E0A /* InterstitialAd.swift */,
 			);
-			name = InterstitialAd;
 			path = InterstitialAd;
 			sourceTree = "<group>";
 		};
@@ -540,19 +537,18 @@
 				E6B36AC0497484E9C94547EE438C8918 /* RewardAd.swift */,
 				BB890BE74C779A6F5905A0956AD740B1 /* RewardInterAd.swift */,
 			);
-			name = RewardAds;
 			path = RewardAds;
 			sourceTree = "<group>";
 		};
-		4D09B05BE23902099DAB1D03251E2EB6 /* google_ads_multiads */ = {
+		4D09B05BE23902099DAB1D03251E2EB6 /* Google Ads Module */ = {
 			isa = PBXGroup;
 			children = (
 				3C812DE9A5162F657D148F653247C7EC /* ColorFunctions.swift */,
 				9C43CB97AC30EE67FD753AB44FFDD96F /* google_ads_multiads.swift */,
 				5C384FD909133E375924A417A57A4820 /* Google */,
 			);
-			name = google_ads_multiads;
-			path = MultiAds/Classes/google_ads_multiads;
+			name = "Google Ads Module";
+			path = "MultiAds/Classes/Google Ads Module";
 			sourceTree = "<group>";
 		};
 		4D3590AE0ED39B94241EE5543BBCC15D /* Frameworks */ = {
@@ -598,7 +594,6 @@
 				95677301A07853349E1800CE8A07559E /* Native */,
 				423A5FCD8112D65BC080BB62C9FA7BF8 /* RewardAds */,
 			);
-			name = Google;
 			path = Google;
 			sourceTree = "<group>";
 		};
@@ -683,24 +678,23 @@
 				D6EF1314948A17E5C22F886FC7E7C294 /* Resources */,
 				377A455940AECE7F21382372E165ADBC /* Support Files */,
 			);
-			name = "Google-Mobile-Ads-SDK";
 			path = "Google-Mobile-Ads-SDK";
 			sourceTree = "<group>";
 		};
 		773C3DAE45A05C8EB57EE783AAEDE659 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8ECCB3B4E33C0FDD00B394CC2C7EA2E /* Google-Mobile-Ads-SDK */,
-				3998091512768CD07733CB4F02B4BD9F /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */,
-				8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */,
-				518701E269E67295B5EC29742D5419A8 /* IPAPI */,
-				9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */,
-				8C80BDFB0BFF9B8889024C8051802E85 /* KeychainSwift-KeychainSwift */,
-				35C72D752986ACBF3E5F37C905AA8F60 /* MultiAds */,
-				9714F26DF24E1954DF01B4839C3FC4E4 /* Pods-MultiAds_Example */,
-				8D51DCA400F0AEF6170BFACF0D7D760A /* Pods-MultiAds_Tests */,
-				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */,
-				7CA3B05F07B063827B34AD2B0DB23706 /* SwiftyJSON-SwiftyJSON */,
+				F8ECCB3B4E33C0FDD00B394CC2C7EA2E /* Google_Mobile_Ads_SDK.framework */,
+				3998091512768CD07733CB4F02B4BD9F /* GoogleMobileAdsResources.bundle */,
+				8A377C18F92A8A511869ADA54B5652D2 /* UserMessagingPlatformResources.bundle */,
+				518701E269E67295B5EC29742D5419A8 /* IPAPI.framework */,
+				9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */,
+				8C80BDFB0BFF9B8889024C8051802E85 /* KeychainSwift.bundle */,
+				35C72D752986ACBF3E5F37C905AA8F60 /* MultiAds.framework */,
+				9714F26DF24E1954DF01B4839C3FC4E4 /* Pods_MultiAds_Example.framework */,
+				8D51DCA400F0AEF6170BFACF0D7D760A /* Pods_MultiAds_Tests.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
+				7CA3B05F07B063827B34AD2B0DB23706 /* SwiftyJSON.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -725,7 +719,6 @@
 			children = (
 				1C96A194D1E15662132FECD3E9A2BB10 /* GoogleBannerAd.swift */,
 			);
-			name = Banner;
 			path = Banner;
 			sourceTree = "<group>";
 		};
@@ -740,7 +733,6 @@
 				E48FB0111C9DE20B447743C4A11D1BC3 /* NativeAdView.xib */,
 				A8174E074F7C98378D418EC195D3B815 /* SmallAdmobNative.xib */,
 			);
-			name = Native;
 			path = Native;
 			sourceTree = "<group>";
 		};
@@ -778,7 +770,6 @@
 				E6914F96B0DEE25DDD700EAD2F2366C1 /* Resources */,
 				71498719AD1D3FAEAB9292CFA7BF1465 /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -855,7 +846,7 @@
 				7B43B10908AFA657499295B611F85D9D /* MultiAds.swift */,
 				08EC4BA0270C18057337A031F95C54A9 /* Base */,
 				FF048EBC71D6FC06F3C814A03C3B9470 /* CommonMethods */,
-				4D09B05BE23902099DAB1D03251E2EB6 /* google_ads_multiads */,
+				4D09B05BE23902099DAB1D03251E2EB6 /* Google Ads Module */,
 				B4274874C31089683C318070EF3AAE8A /* Helpers */,
 				AE23239B419FAF8F2CC6260744E34D77 /* Model */,
 				760126FB9BD7B1AD32EA111F029D7173 /* Pod */,
@@ -1006,7 +997,7 @@
 			);
 			name = MultiAds;
 			productName = MultiAds;
-			productReference = 35C72D752986ACBF3E5F37C905AA8F60 /* MultiAds */;
+			productReference = 35C72D752986ACBF3E5F37C905AA8F60 /* MultiAds.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		01A19D0A8DCE0F58B6824E9BD94033C3 /* IPAPI */ = {
@@ -1024,7 +1015,7 @@
 			);
 			name = IPAPI;
 			productName = IPAPI;
-			productReference = 518701E269E67295B5EC29742D5419A8 /* IPAPI */;
+			productReference = 518701E269E67295B5EC29742D5419A8 /* IPAPI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */ = {
@@ -1043,7 +1034,7 @@
 			);
 			name = KeychainSwift;
 			productName = KeychainSwift;
-			productReference = 9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */;
+			productReference = 9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		36FD0958A0EC4A0FCF599E9B22719B03 /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */ = {
@@ -1060,7 +1051,7 @@
 			);
 			name = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources";
 			productName = GoogleMobileAdsResources;
-			productReference = 3998091512768CD07733CB4F02B4BD9F /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */;
+			productReference = 3998091512768CD07733CB4F02B4BD9F /* GoogleMobileAdsResources.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		4C188DEF0F103867A400914CCF8CA465 /* Pods-MultiAds_Tests */ = {
@@ -1079,7 +1070,7 @@
 			);
 			name = "Pods-MultiAds_Tests";
 			productName = Pods_MultiAds_Tests;
-			productReference = 8D51DCA400F0AEF6170BFACF0D7D760A /* Pods-MultiAds_Tests */;
+			productReference = 8D51DCA400F0AEF6170BFACF0D7D760A /* Pods_MultiAds_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		63A7C675C13F87669AF56006D943998B /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */ = {
@@ -1096,7 +1087,7 @@
 			);
 			name = "GoogleUserMessagingPlatform-UserMessagingPlatformResources";
 			productName = UserMessagingPlatformResources;
-			productReference = 8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */;
+			productReference = 8A377C18F92A8A511869ADA54B5652D2 /* UserMessagingPlatformResources.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		677650A76A720691B88A6959EFED6418 /* SwiftyJSON-SwiftyJSON */ = {
@@ -1113,7 +1104,7 @@
 			);
 			name = "SwiftyJSON-SwiftyJSON";
 			productName = SwiftyJSON;
-			productReference = 7CA3B05F07B063827B34AD2B0DB23706 /* SwiftyJSON-SwiftyJSON */;
+			productReference = 7CA3B05F07B063827B34AD2B0DB23706 /* SwiftyJSON.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		938D4CF8A1AB5A273F201E0E0109A27F /* Pods-MultiAds_Example */ = {
@@ -1137,7 +1128,7 @@
 			);
 			name = "Pods-MultiAds_Example";
 			productName = Pods_MultiAds_Example;
-			productReference = 9714F26DF24E1954DF01B4839C3FC4E4 /* Pods-MultiAds_Example */;
+			productReference = 9714F26DF24E1954DF01B4839C3FC4E4 /* Pods_MultiAds_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B91D7B5B71EF69AF0B85811EF3BA2E1C /* KeychainSwift-KeychainSwift */ = {
@@ -1154,7 +1145,7 @@
 			);
 			name = "KeychainSwift-KeychainSwift";
 			productName = KeychainSwift;
-			productReference = 8C80BDFB0BFF9B8889024C8051802E85 /* KeychainSwift-KeychainSwift */;
+			productReference = 8C80BDFB0BFF9B8889024C8051802E85 /* KeychainSwift.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
@@ -1173,7 +1164,7 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */ = {
@@ -1194,7 +1185,7 @@
 			);
 			name = "Google-Mobile-Ads-SDK";
 			productName = Google_Mobile_Ads_SDK;
-			productReference = F8ECCB3B4E33C0FDD00B394CC2C7EA2E /* Google-Mobile-Ads-SDK */;
+			productReference = F8ECCB3B4E33C0FDD00B394CC2C7EA2E /* Google_Mobile_Ads_SDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1215,8 +1206,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 773C3DAE45A05C8EB57EE783AAEDE659 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1242,7 +1231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8096AF276A60A1F710EB2288E2A20FC1 /* KeychainSwift-KeychainSwift in Resources */,
+				8096AF276A60A1F710EB2288E2A20FC1 /* KeychainSwift.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1309,7 +1298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23B83E0CC7CE0E25F34EC6CA41805F5F /* SwiftyJSON-SwiftyJSON in Resources */,
+				23B83E0CC7CE0E25F34EC6CA41805F5F /* SwiftyJSON.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1721,8 +1710,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

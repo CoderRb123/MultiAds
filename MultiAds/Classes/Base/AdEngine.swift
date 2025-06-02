@@ -277,6 +277,7 @@ public class AdEngine {
     print("✅ Config [loadNativeAds] Tap \(String(describing: localConfig?.native))")
     print("✅ Config [loadNativeAds]  \(String(describing: localConfig))")
     print("✅ Config [loadNativeAds] From :  \(from)")
+    print("✅ Config [loadNativeAds] Congig :  \(ServerConfig.sharedInstance.screenConfig)")
     if localConfig == nil {
         localConfig = ServerConfig.sharedInstance.screenConfig?["default"]
         print("✅ Local Config [loadNativeAds]  \(String(describing: localConfig))")

@@ -24,7 +24,6 @@ public struct AppAdHelper<Content: View>: View {
         VStack {
             content().onAppear {
                 if(!notFirstTime){
-                    
                     MultiAdsManager().setUp(
                         registerAppParameters: RegisterAppParameters(     
                             appVersion:registerAppParameters.appVersion,
