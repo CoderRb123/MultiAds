@@ -14,8 +14,8 @@ public class ApiReposiotry {
    
     @MainActor public func deviceRegister(adId:String,registerAppParameters:RegisterAppParameters) {
         Service.default.fetch(fields: [.ip,.isp, .countryName, .city, .regionName, .zipCode,.proxy]) {
+        
             if let result = try? $0.get() {
-
                 let hasProxy = result.proxy ?? false
                 self.apiService.registerDevice(body: [
                     "device_id": DeviceMethods().getDeviceId()!,
@@ -41,7 +41,32 @@ public class ApiReposiotry {
                 }) { ErrorString in
                     registerAppParameters.onError(ErrorString)
                 }
-        }
+            } else{
+                self.apiService.registerDevice(body: [
+                    "device_id": DeviceMethods().getDeviceId()!,
+                    "device_name": DeviceMethods().getDeviceName()!,
+                    "device_type": "IOS | IPAPI",
+                    "device_isp": "",
+                    "device_iifd": adId,
+                    "device_os_version": DeviceMethods().getDeviceSystemName()!,
+                    "device_country":  "",
+                    "device_city":  "",
+                    "device_zip": "",
+                    "device_ip": "",
+                    "device_location": "",
+                    "appName": DeviceMethods().appName,
+                    "package": DeviceMethods().package,
+                    "version": DeviceMethods().version,
+                    "buildNumber": DeviceMethods().buildNumber,
+                    "reward_type_id": registerAppParameters.rewardType.description,
+                    "device_public_key": DeviceMethods().getDevicePublicKey()
+                ],
+                onComplete: { DeviceId in
+                    registerAppParameters.onComplete(DeviceId)
+                }) { ErrorString in
+                    registerAppParameters.onError(ErrorString)
+                }
+            }
     }
 }
     
