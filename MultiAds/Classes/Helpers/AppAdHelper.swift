@@ -35,7 +35,7 @@ public struct AppAdHelper<Content: View>: View {
                                 notFirstTime = true
                                 registerAppParameters.onComplete(data)
                             },
-                            requiredAdNetworks:registerAppParameters.requiredAdNetworks
+                           
                         ),
                         onSdkInitialized: onSdkInitialized
                     )

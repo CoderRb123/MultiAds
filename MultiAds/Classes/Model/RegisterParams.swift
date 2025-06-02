@@ -26,7 +26,6 @@ public class RegisterAppParameters {
     public var onError: (String) -> Void
     public var onComplete: (Any) -> Void
     public var onUpdateLaunch: (String) -> Void
-    public var requiredAdNetworks: [NetworkType: NetworkInterface]?
 
     public init(appVersion: String = "1.0", rewardType: String = "2",  apiKey: ApiRegister, onUpdateLaunch: @escaping (String) -> Void, onError: @escaping (String) -> Void, onComplete: @escaping (Any) -> Void, requiredAdNetworks: [NetworkType: NetworkInterface]? = nil) {
         self.appVersion = appVersion
@@ -36,7 +35,6 @@ public class RegisterAppParameters {
         self.onUpdateLaunch = onUpdateLaunch
         self.onError = onError
         self.onComplete = onComplete
-        self.requiredAdNetworks = requiredAdNetworks
     }
     
     

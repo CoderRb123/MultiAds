@@ -125,17 +125,27 @@ public class MultiAdsManager {
         
           let typeName = type.stringName
             if ServerConfig.sharedInstance.initAdNetworks.contains(typeName){
-                let res =  networkInterface.initNetwork(onSdkInitialized: onSdkInitialized)
-                print("[⚠️] Initialized \(typeName) : \(res)")
+                let res =  networkInterface.initNetwork(onSdkInitialized: {
+                    print("[⚠️] Initialized \(typeName)")
+                })
+                print("[⚠️] \(typeName) : \(res)")
+
             }
-         
+            onSdkInitialized()
         }
     }
 
     @MainActor public func setUp(registerAppParameters: RegisterAppParameters,onSdkInitialized: @escaping () -> Void) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             //Setting Loaded AdNetwork
-            ServerConfig.sharedInstance.loadAdNetwork = registerAppParameters.requiredAdNetworks
+            ServerConfig.sharedInstance.loadAdNetwork =
+            [
+                .google : GoogleAds(),
+                .appLovin : AppLovingNetworkInterface(),
+                .unity : UnityAdsMulti(),
+                
+                
+            ]
             let identifier: UUID? = AppTrans().getTrackingIdentifierWithRequest()
             
             ApiReposiotry().deviceRegister(adId: identifier?.uuidString ?? "", registerAppParameters: RegisterAppParameters(
@@ -162,8 +172,7 @@ public class MultiAdsManager {
                     registerAppParameters.onError(ErrorConfig.description)
                 }
             },
-            requiredAdNetworks: registerAppParameters.requiredAdNetworks
-            )
+           )
           )
         }
     }
