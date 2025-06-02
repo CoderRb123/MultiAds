@@ -43,6 +43,10 @@ Copyright 2017 Google LLC
 
 Copyright 2016 Google LLC
 
+## GoogleMobileAdsMediationIronSource
+
+Copyright 2017 Google LLC
+
 ## GoogleMobileAdsMediationUnity
 
 Copyright 2016 Google LLC
@@ -50,6 +54,10 @@ Copyright 2016 Google LLC
 ## GoogleUserMessagingPlatform
 
 Copyright 2025 Google LLC
+
+## IronSourceSDK
+
+https://platform.ironsrc.com/partners/terms-and-conditions-new-user
 
 ## KeychainSwift
 

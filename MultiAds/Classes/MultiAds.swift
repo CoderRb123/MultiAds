@@ -10,6 +10,8 @@ import SwiftyJSON
 import SwiftUI
 import StoreKit
 import SwiftUI
+import IronSource
+import UnityAds
 
 @available(iOS 14.0, *)
 public class MultiAdsManager {
@@ -138,13 +140,21 @@ public class MultiAdsManager {
     @MainActor public func setUp(registerAppParameters: RegisterAppParameters,onSdkInitialized: @escaping () -> Void) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             //Setting Loaded AdNetwork
+            IronSource.setConsent(true)
+            IronSource.setMetaDataWithKey("do_not_sell", value: "YES")
+            
+            let gdprMetaData = UADSMetaData()
+            gdprMetaData.set("gdpr.consent", value: true)
+            gdprMetaData.commit()
+            let ccpaMetaData = UADSMetaData()
+            ccpaMetaData.set("privacy.consent", value: true)
+            ccpaMetaData.commit()
+
             ServerConfig.sharedInstance.loadAdNetwork =
             [
                 .google : GoogleAds(),
                 .appLovin : AppLovingNetworkInterface(),
                 .unity : UnityAdsMulti(),
-                
-                
             ]
             let identifier: UUID? = AppTrans().getTrackingIdentifierWithRequest()
             
