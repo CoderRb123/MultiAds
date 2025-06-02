@@ -32,13 +32,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'MultiAds/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MultiAds' => ['MultiAds/Assets/*.png']
-  # }
+
 
   s.static_framework = true
-  # Include source files
-  s.source_files = 'MultiAds/MultiAds/**/*.swift'
+ 
 
   # Bundle the XIB files
   s.resource_bundles = {
