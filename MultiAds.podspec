@@ -38,9 +38,7 @@ TODO: Add long description of the pod here.
  
 
   # Bundle the XIB files
-  s.resource_bundles = {
-    'MultiAdsResources' => ['MultiAds/**/*.xib']
-  }
+   s.resources     = ['MultiAds/**/*.xib']
 
 
   s.public_header_files = 'Pod/Classes/**/*.h'

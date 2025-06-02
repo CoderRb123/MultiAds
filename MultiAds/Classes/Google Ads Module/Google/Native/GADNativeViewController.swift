@@ -31,15 +31,15 @@ public class GADNativeViewController: UIViewController {
 
     public override func viewDidLoad() {
     super.viewDidLoad()
-        let podBundle = Bundle(for: Self.self)
-        if let resourceBundleURL = podBundle.url(forResource: "MultiAdsResources", withExtension: "bundle"),
-           let resourceBundle = Bundle(url: resourceBundleURL),
-           let nibObjects = resourceBundle.loadNibNamed("MediumAdView", owner: nil, options: nil),
-           let adView = nibObjects.first as? NativeAdView {
-            self.setAdView(adView)
-            self.refreshAd()
+        let bundle = Bundle(for: Self.self)
+        if let nibObjects = bundle.loadNibNamed("MediumAdView", owner: nil, options: nil),
+           let view = nibObjects.first as? UIView {
+            // Success
+            print("✅ Loaded MediumAdView")
+            self.view.addSubview(view)
+            
         } else {
-            print("❌ Failed to load SmallAdmobNative.xib from MultiAdsResources.bundle")
+            print("❌ Could not load MediumAdView from Bundle")
         }
 //    guard
 //      let nibObjects = Bundle(for: type(of: self)).loadNibNamed("MediumAdView", owner: nil, options: nil),
