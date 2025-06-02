@@ -3,11 +3,11 @@
 
 import SwiftUI
 import UnityAds
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 
 
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public class UnityAdsMulti : @preconcurrency NetworkInterface{
     
     public init() {

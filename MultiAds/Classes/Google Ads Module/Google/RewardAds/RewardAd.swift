@@ -1,6 +1,6 @@
 import ObjectiveC
 import GoogleMobileAds
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public class RewardAd: NSObject, FullScreenContentDelegate {
     
     @MainActor public static let sharedInstance = RewardAd(adModuleCallBacks: nil)

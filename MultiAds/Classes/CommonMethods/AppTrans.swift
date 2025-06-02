@@ -8,7 +8,7 @@
 import AdSupport
 import AppTrackingTransparency
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 class AppTrans {
     public init() {
     }

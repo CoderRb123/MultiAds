@@ -1,7 +1,7 @@
 import AppLovinSDK
 import SwiftUI
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 struct AlNativeUIWrapper: UIViewRepresentable
 {
   func makeUIView(context: Context) -> MAAdView
@@ -23,7 +23,7 @@ struct AlNativeUIWrapper: UIViewRepresentable
   }
 }
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 extension AlNativeUIWrapper
 {
   class Coordinator: NSObject, MAAdViewAdDelegate
@@ -52,7 +52,7 @@ extension AlNativeUIWrapper
 }
 
 // SwiftUI view to show ad
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 struct AlNativeView: View
 {
   // MREC width and height are 300 and 250 respectively, on iPhone and iPad

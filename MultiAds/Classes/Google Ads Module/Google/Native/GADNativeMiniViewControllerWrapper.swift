@@ -8,7 +8,7 @@
 import UIKit
 import SwiftUI
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public struct GADNativeMiniViewControllerWrapper : UIViewControllerRepresentable {
 
     public func makeUIViewController(context: Context) -> UIViewController {
@@ -22,7 +22,7 @@ public struct GADNativeMiniViewControllerWrapper : UIViewControllerRepresentable
 
 
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public struct GoogleNativeMiniAd : View{
     
     public  var height:CGFloat
@@ -70,7 +70,7 @@ public struct GoogleNativeMiniAd : View{
     }
     
 
-    @available(iOS 13.0, *)
+    @available(iOS 14.0, *)
     public var body: some View{
         let calPadding = min(width * 1.5 / 100, 10)
         Group {

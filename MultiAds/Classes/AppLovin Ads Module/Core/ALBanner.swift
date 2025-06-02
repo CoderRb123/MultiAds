@@ -10,7 +10,7 @@ import AppLovinSDK
 
 // MARK: Wrapper VIEW
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 struct AlBannerBase: UIViewRepresentable
 {
   func makeUIView(context: Context) -> MAAdView
@@ -39,7 +39,7 @@ struct AlBannerBase: UIViewRepresentable
       }
  
 }
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 extension AlBannerBase
 {
   class Coordinator: NSObject, MAAdViewAdDelegate
@@ -74,7 +74,7 @@ extension AlBannerBase
 
 // MARK: MAIN VIEW
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 struct AlBanner: View
 {
     

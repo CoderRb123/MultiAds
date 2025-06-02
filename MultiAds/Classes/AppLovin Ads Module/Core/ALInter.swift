@@ -9,7 +9,7 @@
 import AppLovinSDK
 import SwiftUI
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public class ALInter: UIViewController, @preconcurrency MAAdDelegate
 {
     @MainActor static var shared: ALInter = ALInter()

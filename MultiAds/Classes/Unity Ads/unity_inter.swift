@@ -10,7 +10,7 @@ import UnityAds
 
 
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 class UnityInter : NSObject, UnityAdsShowDelegate, UnityAdsLoadDelegate {
     @MainActor static var shared: UnityInter = UnityInter(adModuleCallBacks: nil)
 

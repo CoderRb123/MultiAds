@@ -1,7 +1,7 @@
 import Foundation
 
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public class CommonChangables : ObservableObject{
      public static let shared = CommonChangables()
     @Published  public var onComplete: ()->Void = {}

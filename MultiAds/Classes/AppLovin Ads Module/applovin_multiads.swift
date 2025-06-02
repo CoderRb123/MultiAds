@@ -6,7 +6,7 @@ import SwiftUICore
 import AppLovinSDK
 
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public class AppLovingNetworkInterface : @preconcurrency NetworkInterface{
     
     public init() {}

@@ -6,7 +6,7 @@ import SwiftyJSON
 /*
    device-register
  */
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public class ApiReposiotry {
     let apiService: ApiService = ApiService()
     public init() {}

@@ -2,7 +2,7 @@ import ObjectiveC
 import GoogleMobileAds
 import UIKit
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public class InterstitialAdGoogle: NSObject, FullScreenContentDelegate {
      
      

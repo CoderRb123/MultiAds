@@ -11,7 +11,7 @@ import SwiftyJSON
 // This sample code is based on Google's examples
 // https://github.com/googleads/googleads-mobile-ios-examples/releases/tag/7.22
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public class GADNativeViewController: UIViewController {
     
     
@@ -96,7 +96,7 @@ public class GADNativeViewController: UIViewController {
   }
 }
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 extension GADNativeViewController: @preconcurrency VideoControllerDelegate {
 
     public func videoControllerDidEndVideoPlayback(_ videoController: VideoController) {
@@ -104,7 +104,7 @@ extension GADNativeViewController: @preconcurrency VideoControllerDelegate {
   }
 }
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 extension GADNativeViewController: @preconcurrency NativeAdLoaderDelegate {
 
     public func adLoader(_ adLoader: AdLoader, didReceive nativeAd: NativeAd) {
@@ -186,7 +186,7 @@ extension GADNativeViewController: @preconcurrency NativeAdLoaderDelegate {
 
 // MARK: - GADNativeAdDelegate implementation
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 extension GADNativeViewController: @preconcurrency NativeAdDelegate {
 
     public nonisolated func nativeAdDidRecordClick(_ nativeAd: NativeAd) {

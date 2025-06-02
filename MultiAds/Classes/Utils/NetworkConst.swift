@@ -9,7 +9,7 @@
 import SwiftUI
 
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public class NetworkConst: ObservableObject {
     
    public static let shared = NetworkConst()

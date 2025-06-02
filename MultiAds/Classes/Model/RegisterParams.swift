@@ -18,7 +18,7 @@ public class ApiRegister {
     }
 }
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public class RegisterAppParameters {
     public var appVersion: String
     public var apiKey: ApiRegister
