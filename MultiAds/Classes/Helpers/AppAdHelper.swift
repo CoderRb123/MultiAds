@@ -10,7 +10,6 @@ import SwiftUI
 @available(iOS 14.0, *)
 public struct AppAdHelper<Content: View>: View {
     
-    @State var networkMonitor: NetworkMonitor = NetworkMonitor.shared
     let content: () -> Content
     @State var notFirstTime: Bool = false
     let registerAppParameters:RegisterAppParameters
@@ -44,16 +43,7 @@ public struct AppAdHelper<Content: View>: View {
                     )
                 }
             }
-            .onChange(of: networkMonitor.isConnected) { connected in
-                        showAlert = !connected
-            }
-            .alert(isPresented: $showAlert) {
-                        Alert(
-                            title: Text("No Internet Connection"),
-                            message: Text("Please check your network settings."),
-                            dismissButton: .default(Text("OK"))
-                        )
-                }
+        
         }
     }
 }
