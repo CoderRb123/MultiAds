@@ -36,7 +36,6 @@ public class MainMethods  {
             onSdkInit()
             print("AppLovin Sdk Configured")
             print(sdkConfig.description)
-            ALSdk.shared().showMediationDebugger()
           }
     }
 }
