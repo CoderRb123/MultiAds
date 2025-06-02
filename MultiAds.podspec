@@ -56,6 +56,7 @@ TODO: Add long description of the pod here.
   s.dependency 'AppLovinMediationGoogleAdapter'
   s.dependency 'AppLovinMediationFacebookAdapter'
   s.dependency 'AppLovinMediationUnityAdsAdapter'
+  s.dependency 'AppLovinMediationIronSourceAdapter'
 
 
 end
