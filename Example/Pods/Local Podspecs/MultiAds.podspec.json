@@ -20,6 +20,9 @@
   },
   "source_files": "MultiAds/Classes/**/*",
   "static_framework": true,
+  "resources": [
+    "Classes/MultiAds/Google Ads Module/Google/Native/SmallAdmobNative.xib"
+  ],
   "public_header_files": "Pod/Classes/**/*.h",
   "dependencies": {
     "SwiftyJSON": [
@@ -33,6 +36,9 @@
     ],
     "Google-Mobile-Ads-SDK": [
       "~> 12.5.0"
-    ]
+    ],
+    "GoogleMobileAdsMediationAppLovin": [],
+    "GoogleMobileAdsMediationFacebook": [],
+    "GoogleMobileAdsMediationUnity": []
   }
 }

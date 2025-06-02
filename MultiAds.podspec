@@ -37,7 +37,9 @@ TODO: Add long description of the pod here.
   # }
 
   s.static_framework = true
-  s.resources = ['MultiAds/Classes/**/*.xib']
+  s.resources = ['Classes/MultiAds/Google Ads Module/Google/Native/MediumAdView.xib']
+  s.resources = ['Classes/MultiAds/Google Ads Module/Google/Native/NativeAdView.xib']
+  s.resources = ['Classes/MultiAds/Google Ads Module/Google/Native/SmallAdmobNative.xib']
 
 
   s.public_header_files = 'Pod/Classes/**/*.h'
