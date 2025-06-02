@@ -37,6 +37,9 @@
     "GoogleMobileAdsMediationAppLovin": [],
     "GoogleMobileAdsMediationFacebook": [],
     "GoogleMobileAdsMediationUnity": [],
-    "GoogleMobileAdsMediationIronSource": []
+    "GoogleMobileAdsMediationIronSource": [],
+    "AppLovinMediationGoogleAdapter": [],
+    "AppLovinMediationFacebookAdapter": [],
+    "AppLovinMediationUnityAdsAdapter": []
   }
 }
