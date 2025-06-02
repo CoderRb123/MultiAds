@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   s.static_framework = true
-  s.resources = ['MultiAds/**/*.{xib,png,json}']
+  s.resources = ['MultiAds/Classes/**/*.xib']
 
 
   s.public_header_files = 'Pod/Classes/**/*.h'
