@@ -1,4 +1,3 @@
-import IPAPI
 import SystemConfiguration
 import Foundation
 import SwiftyJSON

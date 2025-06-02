@@ -18,18 +18,15 @@
   "platforms": {
     "ios": "12.0"
   },
-  "source_files": "MultiAds/Classes/**/*",
   "static_framework": true,
   "resources": [
-    "Classes/MultiAds/Google Ads Module/Google/Native/SmallAdmobNative.xib"
+    "MultiAds/Assets/**/*.xib"
   ],
+  "source_files": "MultiAds/Classes/**/*",
   "public_header_files": "Pod/Classes/**/*.h",
   "dependencies": {
     "SwiftyJSON": [
       "~> 5.0.2"
-    ],
-    "IPAPI": [
-      "~> 3.0"
     ],
     "KeychainSwift": [
       "~> 24.0"

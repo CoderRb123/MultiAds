@@ -295,6 +295,9 @@
 				"${PODS_CONFIGURATION_BUILD_DIR}/FBAudienceNetwork/FBAudienceNetwork.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/Google-Mobile-Ads-SDK/GoogleMobileAdsResources.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUserMessagingPlatform/UserMessagingPlatformResources.bundle",
+				"${BUILT_PRODUCTS_DIR}/MultiAds/MultiAds.framework/MediumAdView.nib",
+				"${BUILT_PRODUCTS_DIR}/MultiAds/MultiAds.framework/NativeAdView.nib",
+				"${BUILT_PRODUCTS_DIR}/MultiAds/MultiAds.framework/SmallAdmobNative.nib",
 				"${PODS_CONFIGURATION_BUILD_DIR}/UnityAds/UnityAdsResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -302,6 +305,9 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FBAudienceNetwork.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMobileAdsResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UserMessagingPlatformResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MediumAdView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NativeAdView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SmallAdmobNative.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UnityAdsResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,14 +322,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MultiAds_Example/Pods-MultiAds_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/IPAPI/IPAPI.framework",
 				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinSDK/AppLovinSDK.framework/AppLovinSDK",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IPAPI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppLovinSDK.framework",

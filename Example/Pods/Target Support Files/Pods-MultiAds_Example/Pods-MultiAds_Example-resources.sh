@@ -100,12 +100,18 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/FBAudienceNetwork/FBAudienceNetwork.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Google-Mobile-Ads-SDK/GoogleMobileAdsResources.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/GoogleUserMessagingPlatform/UserMessagingPlatformResources.bundle"
+  install_resource "${BUILT_PRODUCTS_DIR}/MultiAds/MultiAds.framework/MediumAdView.nib"
+  install_resource "${BUILT_PRODUCTS_DIR}/MultiAds/MultiAds.framework/NativeAdView.nib"
+  install_resource "${BUILT_PRODUCTS_DIR}/MultiAds/MultiAds.framework/SmallAdmobNative.nib"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/UnityAds/UnityAdsResources.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/FBAudienceNetwork/FBAudienceNetwork.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/Google-Mobile-Ads-SDK/GoogleMobileAdsResources.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/GoogleUserMessagingPlatform/UserMessagingPlatformResources.bundle"
+  install_resource "${BUILT_PRODUCTS_DIR}/MultiAds/MultiAds.framework/MediumAdView.nib"
+  install_resource "${BUILT_PRODUCTS_DIR}/MultiAds/MultiAds.framework/NativeAdView.nib"
+  install_resource "${BUILT_PRODUCTS_DIR}/MultiAds/MultiAds.framework/SmallAdmobNative.nib"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/UnityAds/UnityAdsResources.bundle"
 fi
 

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "IPAPI.h"
 
 FOUNDATION_EXPORT double MultiAdsVersionNumber;
 FOUNDATION_EXPORT const unsigned char MultiAdsVersionString[];
