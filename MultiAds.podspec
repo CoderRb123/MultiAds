@@ -39,7 +39,7 @@ TODO: Add long description of the pod here.
 
   # Bundle the XIB files
   s.resource_bundles = {
-    'MultiAdsResources' => ['MultiAds/MultiAds/**/*.xib']
+    'MultiAdsResources' => ['MultiAds/**/*.xib']
   }
 
 
