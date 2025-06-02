@@ -31,25 +31,16 @@ public class GADNativeViewController: UIViewController {
 
     public override func viewDidLoad() {
     super.viewDidLoad()
-        let bundle = Bundle(for: Self.self)
-        if let nibObjects = bundle.loadNibNamed("MediumAdView", owner: nil, options: nil),
-           let view = nibObjects.first as? UIView {
-            // Success
-            print("✅ Loaded MediumAdView")
-            self.view.addSubview(view)
-            
-        } else {
-            print("❌ Could not load MediumAdView from Bundle")
-        }
-//    guard
-//      let nibObjects = Bundle(for: type(of: self)).loadNibNamed("MediumAdView", owner: nil, options: nil),
-//      let adView = nibObjects.first as? NativeAdView
-//    else {
-//      print("Could not load nib file for adView")
-//        return
-//    }
-//    setAdView(adView)
-//    refreshAd()
+
+    guard
+      let nibObjects = Bundle(for: type(of: self)).loadNibNamed("MediumAdView", owner: nil, options: nil),
+      let adView = nibObjects.first as? NativeAdView
+    else {
+      print("Could not load nib file for adView")
+        return
+    }
+    setAdView(adView)
+    refreshAd()
   }
 
     public  func setAdView(_ view: NativeAdView) {
