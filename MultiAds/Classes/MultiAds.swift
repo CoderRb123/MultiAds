@@ -11,7 +11,7 @@ import SwiftUI
 import StoreKit
 import SwiftUI
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public class MultiAdsManager {
     
     
@@ -114,7 +114,7 @@ public class MultiAdsManager {
     
    
    
-    @available(iOS 13.0.0, *)
+    @available(iOS 14.0, *)
     public func setupAdNetworks(onSdkInitialized: @escaping () -> Void)  {
         if(ServerConfig.sharedInstance.loadAdNetwork == nil){
             return
@@ -198,14 +198,14 @@ public class MultiAdsManager {
 }
 
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public extension View {
     func setup(registerAppParameters: RegisterAppParameters,onSdkInitialized: @escaping () -> Void){
         MultiAdsManager().setUp(registerAppParameters: registerAppParameters,onSdkInitialized: onSdkInitialized)
     }
 }
 
-@available(iOS 13.0, *)
+@available(iOS 14.0, *)
 public var rootController: UIViewController? {
     guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
           let window = windowScene.windows.first else {
