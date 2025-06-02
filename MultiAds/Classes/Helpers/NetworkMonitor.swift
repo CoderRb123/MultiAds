@@ -9,6 +9,7 @@ import Foundation
 import Network
 import Combine
 
+@available(iOS 14.0, *)
 final class NetworkMonitor: ObservableObject {
     
     static var shared: NetworkMonitor = NetworkMonitor()
