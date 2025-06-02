@@ -34,7 +34,7 @@ public class GADNativeViewController: UIViewController {
         let podBundle = Bundle(for: Self.self)
         if let resourceBundleURL = podBundle.url(forResource: "MultiAdsResources", withExtension: "bundle"),
            let resourceBundle = Bundle(url: resourceBundleURL),
-           let nibObjects = resourceBundle.loadNibNamed("SmallAdmobNative", owner: nil, options: nil),
+           let nibObjects = resourceBundle.loadNibNamed("MediumAdView", owner: nil, options: nil),
            let adView = nibObjects.first as? NativeAdView {
             self.setAdView(adView)
             self.refreshAd()
