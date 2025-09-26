@@ -1,0 +1,6 @@
+framework module AppLovinMediationIronSourceAdapter {
+  umbrella header "AppLovinMediationIronSourceAdapter.h"
+  export *
+
+  module * { export * }
+}

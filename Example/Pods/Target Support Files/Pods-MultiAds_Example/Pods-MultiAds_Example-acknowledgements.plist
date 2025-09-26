@@ -15,7 +15,7 @@
 		<dict>
 			<key>FooterText</key>
 			<string>
-Copyright 2022 AppLovin Corp. All rights reserved.
+Copyright 2025 AppLovin Corp. All rights reserved.
 
 The AppLovin MAX SDK is available under a commercial license (https://www.applovin.com/eula).
 
@@ -45,7 +45,22 @@ The AppLovin MAX SDK is available under a commercial license (https://www.applov
 		<dict>
 			<key>FooterText</key>
 			<string>
-Copyright 2022 AppLovin Corp. All rights reserved.
+Copyright 2025 AppLovin Corp. All rights reserved.
+
+The AppLovin MAX SDK is available under a commercial license (https://www.applovin.com/eula).
+
+</string>
+			<key>License</key>
+			<string>Commercial License</string>
+			<key>Title</key>
+			<string>AppLovinMediationIronSourceAdapter</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>
+Copyright 2025 AppLovin Corp. All rights reserved.
 
 The AppLovin MAX SDK is available under a commercial license (https://www.applovin.com/eula).
 
@@ -156,6 +171,16 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 			<string>Copyright</string>
 			<key>Title</key>
 			<string>GoogleUserMessagingPlatform</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>https://platform.ironsrc.com/partners/terms-and-conditions-new-user</string>
+			<key>License</key>
+			<string>Commercial</string>
+			<key>Title</key>
+			<string>IronSourceAdQualitySDK</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

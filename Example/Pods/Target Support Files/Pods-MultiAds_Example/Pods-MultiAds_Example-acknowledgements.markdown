@@ -4,7 +4,7 @@ This application makes use of the following third party libraries:
 ## AppLovinMediationFacebookAdapter
 
 
-Copyright 2022 AppLovin Corp. All rights reserved.
+Copyright 2025 AppLovin Corp. All rights reserved.
 
 The AppLovin MAX SDK is available under a commercial license (https://www.applovin.com/eula).
 
@@ -19,10 +19,19 @@ The AppLovin MAX SDK is available under a commercial license (https://www.applov
 
 
 
+## AppLovinMediationIronSourceAdapter
+
+
+Copyright 2025 AppLovin Corp. All rights reserved.
+
+The AppLovin MAX SDK is available under a commercial license (https://www.applovin.com/eula).
+
+
+
 ## AppLovinMediationUnityAdsAdapter
 
 
-Copyright 2022 AppLovin Corp. All rights reserved.
+Copyright 2025 AppLovin Corp. All rights reserved.
 
 The AppLovin MAX SDK is available under a commercial license (https://www.applovin.com/eula).
 
@@ -81,6 +90,10 @@ Copyright 2016 Google LLC
 ## GoogleUserMessagingPlatform
 
 Copyright 2025 Google LLC
+
+## IronSourceAdQualitySDK
+
+https://platform.ironsrc.com/partners/terms-and-conditions-new-user
 
 ## IronSourceSDK
 

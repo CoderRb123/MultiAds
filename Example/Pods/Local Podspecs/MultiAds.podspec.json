@@ -31,15 +31,14 @@
     "KeychainSwift": [
       "~> 24.0"
     ],
-    "Google-Mobile-Ads-SDK": [
-      "~> 12.5.0"
-    ],
+    "Google-Mobile-Ads-SDK": [],
     "GoogleMobileAdsMediationAppLovin": [],
     "GoogleMobileAdsMediationFacebook": [],
     "GoogleMobileAdsMediationUnity": [],
     "GoogleMobileAdsMediationIronSource": [],
     "AppLovinMediationGoogleAdapter": [],
     "AppLovinMediationFacebookAdapter": [],
-    "AppLovinMediationUnityAdsAdapter": []
+    "AppLovinMediationUnityAdsAdapter": [],
+    "AppLovinMediationIronSourceAdapter": []
   }
 }

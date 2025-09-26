@@ -1,37 +1,47 @@
 PODS:
-  - AppLovinMediationFacebookAdapter (6.17.1.0):
+  - AppLovinMediationFacebookAdapter (6.20.1.0):
     - AppLovinSDK (>= 13.0.0)
-    - FBAudienceNetwork (= 6.17.1)
-  - AppLovinMediationGoogleAdapter (12.5.0.0):
+    - FBAudienceNetwork (= 6.20.1)
+  - AppLovinMediationGoogleAdapter (12.11.0.0):
     - AppLovinSDK (>= 13.0.0)
-    - Google-Mobile-Ads-SDK (= 12.5.0)
-  - AppLovinMediationUnityAdsAdapter (4.14.2.0):
+    - Google-Mobile-Ads-SDK (= 12.11.0)
+  - AppLovinMediationIronSourceAdapter (9.0.0.0.0):
     - AppLovinSDK (>= 13.0.0)
-    - UnityAds (= 4.14.2)
-  - AppLovinSDK (13.3.0)
-  - FBAudienceNetwork (6.17.1)
-  - Google-Mobile-Ads-SDK (12.5.0):
+    - IronSourceSDK/Ads (= 9.0.0.0)
+  - AppLovinMediationUnityAdsAdapter (4.16.1.0):
+    - AppLovinSDK (>= 13.0.0)
+    - UnityAds (= 4.16.1)
+  - AppLovinSDK (13.4.0)
+  - FBAudienceNetwork (6.20.1)
+  - Google-Mobile-Ads-SDK (12.11.0):
     - GoogleUserMessagingPlatform (>= 1.1)
-  - GoogleMobileAdsMediationAppLovin (13.3.0.0):
-    - AppLovinSDK (= 13.3.0)
+  - GoogleMobileAdsMediationAppLovin (13.4.0.0):
+    - AppLovinSDK (= 13.4.0)
     - Google-Mobile-Ads-SDK (~> 12.0)
-  - GoogleMobileAdsMediationFacebook (6.17.1.0):
-    - FBAudienceNetwork (= 6.17.1)
+  - GoogleMobileAdsMediationFacebook (6.20.1.0):
+    - FBAudienceNetwork (= 6.20.1)
     - Google-Mobile-Ads-SDK (~> 12.0)
-  - GoogleMobileAdsMediationIronSource (8.8.0.0.0):
+  - GoogleMobileAdsMediationIronSource (9.0.0.0.0):
     - Google-Mobile-Ads-SDK (~> 12.0)
-    - IronSourceSDK (= 8.8.0.0)
-  - GoogleMobileAdsMediationUnity (4.14.2.0):
+    - IronSourceSDK (= 9.0.0.0)
+  - GoogleMobileAdsMediationUnity (4.16.1.0):
     - Google-Mobile-Ads-SDK (~> 12.0)
-    - UnityAds (= 4.14.2)
+    - UnityAds (= 4.16.1)
   - GoogleUserMessagingPlatform (3.0.0)
-  - IronSourceSDK (8.8.0.0)
+  - IronSourceAdQualitySDK (9.0.1)
+  - IronSourceSDK (9.0.0.0):
+    - IronSourceSDK/AdQuality (= 9.0.0.0)
+    - IronSourceSDK/Ads (= 9.0.0.0)
+  - IronSourceSDK/AdQuality (9.0.0.0):
+    - IronSourceAdQualitySDK (~> 9.0.0)
+  - IronSourceSDK/Ads (9.0.0.0)
   - KeychainSwift (24.0.0)
   - MultiAds (1.0.0):
     - AppLovinMediationFacebookAdapter
     - AppLovinMediationGoogleAdapter
+    - AppLovinMediationIronSourceAdapter
     - AppLovinMediationUnityAdsAdapter
-    - Google-Mobile-Ads-SDK (~> 12.5.0)
+    - Google-Mobile-Ads-SDK
     - GoogleMobileAdsMediationAppLovin
     - GoogleMobileAdsMediationFacebook
     - GoogleMobileAdsMediationIronSource
@@ -39,7 +49,7 @@ PODS:
     - KeychainSwift (~> 24.0)
     - SwiftyJSON (~> 5.0.2)
   - SwiftyJSON (5.0.2)
-  - UnityAds (4.14.2)
+  - UnityAds (4.16.1)
 
 DEPENDENCIES:
   - MultiAds (from `../`)
@@ -48,6 +58,7 @@ SPEC REPOS:
   trunk:
     - AppLovinMediationFacebookAdapter
     - AppLovinMediationGoogleAdapter
+    - AppLovinMediationIronSourceAdapter
     - AppLovinMediationUnityAdsAdapter
     - AppLovinSDK
     - FBAudienceNetwork
@@ -57,6 +68,7 @@ SPEC REPOS:
     - GoogleMobileAdsMediationIronSource
     - GoogleMobileAdsMediationUnity
     - GoogleUserMessagingPlatform
+    - IronSourceAdQualitySDK
     - IronSourceSDK
     - KeychainSwift
     - SwiftyJSON
@@ -67,22 +79,24 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AppLovinMediationFacebookAdapter: 413c7188e2a21e4c9256aa2b096ddc27240b1443
-  AppLovinMediationGoogleAdapter: 36d9926e84420b49a7cba45800c6eada3be58b05
-  AppLovinMediationUnityAdsAdapter: 4e4045a920c11e08ba16208aeffa38cc6c3d7376
-  AppLovinSDK: 5ed9dbada0de5a80e4546116994470011ed01f53
-  FBAudienceNetwork: eb3ffbf2b35df25e21e163657044ffef66616a40
-  Google-Mobile-Ads-SDK: 6df9aadcee32bce0ff05bcad56ef2c88a4a5e82b
-  GoogleMobileAdsMediationAppLovin: efd0c6ebe304747b61e115ddc5bd0ed28346f499
-  GoogleMobileAdsMediationFacebook: 750a2c14ce0bdf813e4e1d4ab4aa283f72f8a875
-  GoogleMobileAdsMediationIronSource: fd3c9a3986e61cbae0cb3a413518284c9ac4e9d9
-  GoogleMobileAdsMediationUnity: 7beb7c5375d3a747c8f4d9149df280725d06027a
+  AppLovinMediationFacebookAdapter: 7c9837eb64a43823812dc23609eac01973ff8b74
+  AppLovinMediationGoogleAdapter: 7974f784ae6ac93739222343c0c1c01110a13e34
+  AppLovinMediationIronSourceAdapter: 2472fee4ca9e2f77fc31571acb21ae9656ecb5a2
+  AppLovinMediationUnityAdsAdapter: 16e2c3cc72761ce5bd395a5c91222ad15c040cb5
+  AppLovinSDK: 33fcc783889e2d522ae26886b31e5551246a5b2f
+  FBAudienceNetwork: 08e86d63a05b3a5a59414af12e4af8d756943c80
+  Google-Mobile-Ads-SDK: b833c723759e32bbaf06edaaf2293f08ed898232
+  GoogleMobileAdsMediationAppLovin: 604d93a0913908be064558a90170004f35b57a96
+  GoogleMobileAdsMediationFacebook: b11a92ae3bfdae19853b882252b7e62791c18162
+  GoogleMobileAdsMediationIronSource: 9bcd7657d1c133ed89f01540cae735eb40352ca3
+  GoogleMobileAdsMediationUnity: 9e788d0fc5517623ff1321c5896608c808d66099
   GoogleUserMessagingPlatform: f8d0cdad3ca835406755d0a69aa634f00e76d576
-  IronSourceSDK: ff0b14630899756847f7608a75182f10f022e5ef
+  IronSourceAdQualitySDK: a23d5ad2cc7906c675f4124436a9d8343a661ff8
+  IronSourceSDK: b64660084bc4b162f30a4e846f7b763ce0074664
   KeychainSwift: 007c4647486e4563adca839cf02cef00deb3b670
-  MultiAds: c032df258733e4967c1bf735280bf2e4541ae46f
+  MultiAds: 7c3595c41e8ee88c477535574f992096c20ca0f3
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
-  UnityAds: eabbbb3014326e45dc221a467fba16960e7b73e3
+  UnityAds: 24cb6536614958aefcd5a44576eb4f3157c781d0
 
 PODFILE CHECKSUM: 239c77a64f5e5a76ebb6b6d61f4f8546b61ef511
 

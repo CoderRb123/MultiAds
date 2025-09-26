@@ -13,6 +13,9 @@ import SwiftUI
 import IronSource
 import UnityAds
 
+
+
+
 @available(iOS 14.0, *)
 public class MultiAdsManager {
     
@@ -140,8 +143,8 @@ public class MultiAdsManager {
     @MainActor public func setUp(registerAppParameters: RegisterAppParameters,onSdkInitialized: @escaping () -> Void) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             //Setting Loaded AdNetwork
-            IronSource.setConsent(true)
-            IronSource.setMetaDataWithKey("do_not_sell", value: "YES")
+            LevelPlay.setConsent(true)
+            LevelPlay.setMetaDataWithKey("do_not_sell", value: "YES")
             
             let gdprMetaData = UADSMetaData()
             gdprMetaData.set("gdpr.consent", value: true)
