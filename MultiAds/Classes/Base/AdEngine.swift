@@ -5,7 +5,7 @@
 //  Created by Khusnud Zehra on 30/01/25.
 //
 
-import SwiftUICore
+import SwiftUI
 
 @available(iOS 14.0, *)
 public class AdEngine {

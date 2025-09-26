@@ -2,7 +2,7 @@
 // https://docs.swift.org/swift-book
 
 
-import SwiftUICore
+import SwiftUI
 import AppLovinSDK
 
 

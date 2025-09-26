@@ -7,7 +7,7 @@
 
 import UIKit
 import GoogleMobileAds
-import SwiftUICore
+import SwiftUI
 
 
 @available(iOS 14.0, *)
